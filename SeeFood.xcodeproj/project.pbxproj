@@ -13,6 +13,7 @@
 		C1C6C2402971EB3F00249769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C6C23E2971EB3F00249769 /* Main.storyboard */; };
 		C1C6C2422971EB4100249769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C6C2412971EB4100249769 /* Assets.xcassets */; };
 		C1C6C2452971EB4100249769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C6C2432971EB4100249769 /* LaunchScreen.storyboard */; };
+		C1C6C24D2971EBAB00249769 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C1C6C24C2971EBAB00249769 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C1C6C2412971EB4100249769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1C6C2442971EB4100249769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1C6C2462971EB4100249769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1C6C24C2971EBAB00249769 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				C1C6C2412971EB4100249769 /* Assets.xcassets */,
 				C1C6C2432971EB4100249769 /* LaunchScreen.storyboard */,
 				C1C6C2462971EB4100249769 /* Info.plist */,
+				C1C6C24C2971EBAB00249769 /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1C6C23D2971EB3F00249769 /* ViewController.swift in Sources */,
+				C1C6C24D2971EBAB00249769 /* Inceptionv3.mlmodel in Sources */,
 				C1C6C2392971EB3F00249769 /* AppDelegate.swift in Sources */,
 				C1C6C23B2971EB3F00249769 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6HVFYG7Q8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeeFood/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6HVFYG7Q8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeeFood/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
